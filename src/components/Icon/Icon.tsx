@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-export default function Icon({ src, alt, width, height }: { src: string, alt: string, width: number, height: number; }) {
+export default function Icon({ iconClass, src, alt, width, height }: { iconClass: string, src: string, alt: string, width: number, height: number; }) {
   return (
-    <><Image className="icon__xl" src={src} alt={alt} width={width} height={height} priority /></>
+    <><Image className={iconClass} src={src} alt={alt} width={width} height={height} priority /></>
   );
 }

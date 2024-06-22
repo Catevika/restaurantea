@@ -8,10 +8,10 @@ export default function Header() {
   return (
     <header className='border__top__gray'>
       <div className='container'>
-        <Button text='Call - 987 654 321' />
+        <Button type='button' link='#!' text='Call - 987 654 321' />
         <Logo />
-        <Icon src='/icons/cart.svg' alt='Cart icon' width={33} height={31} />
-        <ReverseButton text='Reservation' />
+        <Icon iconClass='icon__large' src='/icons/cart.svg' alt='Cart icon' width={33} height={31} />
+        <ReverseButton type='button' link='/cart' text='Reservation' />
       </div>
       <div className='border__tb__gray'>
         <Navbar />
