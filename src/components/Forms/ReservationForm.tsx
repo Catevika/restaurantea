@@ -6,7 +6,7 @@ export default function ReservationForm() {
     <form className='column form'>
       <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Reservation</h6>
       <h4 className={cormorantInfant.className}>Book your table now</h4>
-      <div className='container'>
+      <div className='container content__form'>
         <p className='column column__content__horizontal__start'>
           <label htmlFor="name">Name</label>
           <input type="text" id='name' name='name' title='name' placeholder='Name' autoComplete='name' />
@@ -18,7 +18,7 @@ export default function ReservationForm() {
         </p>
       </div>
 
-      <div className='container'>
+      <div className='container content__form'>
         <p className='column column__content__horizontal__start'>
           <label htmlFor="date">Date</label>
           <input type="date" id='date' name='date' title='date' placeholder='Date' />

@@ -1,20 +1,17 @@
-import Button from '@/components/Buttons/Button';
-import Link from 'next/link';
+import ReverseButton from '@/components/Buttons/ReverseButton';
+import { cormorantInfant } from '@/fonts';
 
 export default function MailingList() {
   return (
-    <div className='column content__horizontal__center'>
-      <p className='text__uppercase border__tb__gold'>Mailing List</p>
-      <p> Join our mailing list to get updates on events & exclusive offers.</p>
-      <form>
+    <div className='column content__mailing content__horizontal__center'>
+      <h6 className='text__uppercase border__tb__gold'>Mailing List</h6>
+      <h4 className={cormorantInfant.className}>Join our mailing list</h4>
+      <p>Get updates on events & exclusive offers.</p>
+      <form className='column form__content__mailing content__horizontal__start'>
         <label htmlFor="email">Email</label>
         <input type="email" id='email' placeholder='Email' name='email' title='Email' autoComplete='email' />
-        <Button type='submit' link='#!' text='Subscribe' />
+        <ReverseButton type='submit' link='#!' text='Subscribe' />
       </form>
-      <div className='column content__horizontal__center'>
-        <p>This website is a customized version of:</p>
-        <p>© Copyright - Restaurantate | Designed by <Link href='https://www.victorflow.com/' ><span className='active'>VictorFlow</span></Link> Templates - Powered by <span className='active'>Webflow</span></p>
-      </div>
     </div>
   );
 }

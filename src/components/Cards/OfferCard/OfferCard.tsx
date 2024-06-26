@@ -5,10 +5,12 @@ export default function OfferCard({ bckg, textColor, iconXl, textClass, price, p
   return (
     <div className={`container__card__offer ${bckg}`}>
       <div className='content__badge__offer'>
-        {iconXl}
-        <div className={`content__45deg__offer ${textColor}`}>
-          <p className={`${josefinSans.className} text__uppercase`}>Only</p>
-          <p className={`${cormorantInfant.className} text__offer`}>$<span className={textClass}>{price}</span></p>
+        <div className='content__badge__offer__images'>
+          {iconXl}
+          <div className={`content__45deg__offer ${textColor}`}>
+            <p className={`${josefinSans.className} text__uppercase`}>Only</p>
+            <p className={`${cormorantInfant.className} text__offer`}>$<span className={textClass}>{price}</span></p>
+          </div>
         </div>
         <div className='text__extended text__uppercase border__tb__black'>{percent}% Off Now</div>
         <h4 className={cormorantInfant.className}>{product}</h4>

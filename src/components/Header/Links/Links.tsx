@@ -7,7 +7,7 @@ export default function Links() {
   const pathname = usePathname();
 
   return (
-    <div>
+    <p className='container__links'>
       <Link className={pathname === '/' ? 'link active' : 'link'} href='/'>
         Home
       </Link>
@@ -29,6 +29,6 @@ export default function Links() {
       <Link className={pathname === '/contact' ? 'link active' : 'link'} href='/contact'>
         Contact
       </Link>
-    </div>
+    </p>
   );
 }

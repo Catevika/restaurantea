@@ -14,14 +14,14 @@ import Image from 'next/image';
 
 export default function HomePage() {
   return (
-    <main className='column'>
+    <main>
       <section className='container__wrap'>
         <div className='left'>
           <h1 className={cormorantInfant.className}>Welcome&nbsp;to Restaurantea</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, laudantium.</p>
-          <Button type='button' link='#menu' text='View Menu' />
+          <Button type='button' link='/menu' text='View Full Menu' />
         </div>
-        <div className="right">
+        <div className="right__small">
           <Image src='/images/hero.png' alt='' sizes='50vw' width={0} height={0} priority />
         </div>
       </section>
@@ -29,14 +29,14 @@ export default function HomePage() {
         <article className='container__color__bg bg__light'>
           <div className='container__color__bg bg__light'>
             <DetailList />
-            <div className='container'>
-              <Image className='content__about' src='/images/history.png' alt='' sizes='50vw' width={0} height={0} priority />
-              <div className='border__left__gray'>
+            <div className='container container__about content__about'>
+              <Image src='/images/history.png' alt='' sizes='50vw' width={0} height={0} priority />
+              <div className='right__small border__left__gray'>
                 <div className='column column__content__horizontal__start'>
                   <h4 className={cormorantInfant.className}>The Story</h4>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit minus ab minima, molestias laboriosam excepturi, ipsa facilis fugit iusto libero voluptas voluptate cupiditate.</p>
                 </div>
-                <div className='container content__vertical__top'>
+                <div className='container content__about content__vertical__top'>
                   <div className='column'>
                     <h4 className={cormorantInfant.className}>1996</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ea.</p>
@@ -46,7 +46,7 @@ export default function HomePage() {
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae eius sed quas ut porro eveniet?</p>
                   </div>
                 </div>
-                <div className='column column__content__horizontal__start'>
+                <div className='column container__about__josephine column__content__horizontal__start'>
                   <h6 className={`${josefinSans.className} normal text__uppercase`}>Josefine</h6>
                   <Image className='small' src='/images/signature.png' alt='' sizes='10vw' width={0} height={0} priority />
                 </div>
@@ -55,20 +55,20 @@ export default function HomePage() {
           </div>
         </article>
         <article className='container__color__bg bg__white column__content__horizontal__start'>
-          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Menu</h6>
-          <div className='container content__vertical__top'>
+          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Today&apos;s Menu</h6>
+          <div className='container__wrap content__vertical__top'>
             <div className='left__color__bg'>
-              <h4 className={cormorantInfant.className}>Try Our Special Offers</h4>
+              <h4 className={cormorantInfant.className}>Chef&apos;s Special of the Day</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nostrum eos dicta illum blanditiis magnam saepe nisi explicabo! Fugit, sequi quos! Cumque dolorem neque explicabo.</p>
               <Image src='/images/menu-offer.png' alt='' width={796} height={1096} priority />
               <ReverseButton type='button' link='/menu' text='View Full Menu' />
             </div>
-            <div>
-              <h4 className={cormorantInfant.className}>Starters</h4>
+            <div className='right__large'>
+              <h4 className={cormorantInfant.className}>Daily specials - Starters</h4>
               <StarterList />
-              <h4 className={cormorantInfant.className}>Main course</h4>
+              <h4 className={cormorantInfant.className}>Daily specials - Main course</h4>
               <MainDishList />
-              <h4 className={cormorantInfant.className}>Desserts</h4>
+              <h4 className={cormorantInfant.className}>Daily specials - Desserts</h4>
               <DessertList />
             </div>
           </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
       </section>
       <section className='container__color__bg column__content__horizontal__start'>
         <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Testimonials</h6>
-        <h5 className={cormorantInfant.className}>What our Clients say</h5>
+        <h4 className={cormorantInfant.className}>What our Clients say</h4>
         <p>We love to hear from our customers, so please leave a comment or say hello at <span className='active'>restaurantea-testimonial@gmail.com</span></p>
         <TestimonialList />
       </section>
@@ -95,14 +95,14 @@ export default function HomePage() {
           <PopularList />
         </div>
       </section>
-      <section className='container__color__bg column__content__horizontal__start'>
-        <div className='container'>
+      <section className='container column__content__horizontal__start'>
+        <div className='container content__services'>
           <div className='left'>
             <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Our services</h6>
             <h4 className={cormorantInfant.className}>For your convenience</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur in consectetur, voluptatibus ut quaerat ipsum.</p>
           </div>
-          <div><ServiceList /></div>
+          <ServiceList />
         </div>
       </section>
       <section className='form__container'>

@@ -3,7 +3,7 @@ import SocialIcons from '@/components/SocialIcons/SocialIcons';
 export default function Navbar() {
 
   return (
-    <nav className='container'>
+    <nav className='container__wrap'>
       <Links />
       <SocialIcons />
     </nav>

@@ -19,7 +19,7 @@ export const details = [
     "icon": "/icons/reservation.svg",
     "alt": "Reservation icon",
     "title": "Reservation",
-    "paragraph": "restaurantea-reservation@gmail.com"
+    "paragraph": "resa@gmail.com"
   }
 ];
 
@@ -29,7 +29,7 @@ export const starters = [
     "iconClass": "icon__xl",
     "icon": '/images/mini-burger.png',
     "alt": "",
-    "title": "Fresh Goat Cheese Mini Burger",
+    "title": "Fresh Goat Mini Burger",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 10
   },
@@ -86,7 +86,7 @@ export const dishes = [
     "iconClass": "icon__xl",
     "icon": '/images/tacos.png',
     "alt": "",
-    "title": "Gourmet tacos",
+    "title": "Gourmet Tacos",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 35
   }
@@ -107,7 +107,7 @@ export const desserts = [
     "iconClass": "icon__xl",
     "icon": '/images/lemon-pie.png',
     "alt": "",
-    "title": "Lemon Meringue Pie",
+    "title": "Lemon Pie",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 15
   },
@@ -116,7 +116,7 @@ export const desserts = [
     "iconClass": "icon__xl",
     "icon": '/images/ice-cream.png',
     "alt": "",
-    "title": "Ice Cream - 3 scoops",
+    "title": "Ice Cream",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 10
   }
@@ -256,11 +256,11 @@ export const services = [
   {
     "id": 2,
     "src": "/icons/service-2.svg",
-    "text": "Special menus"
+    "text": "Chef's Menu of the day"
   },
   {
     "id": 3,
     "src": "/icons/service-3.svg",
-    "text": "Home Delivery"
+    "text": "30min. Home Delivery"
   }
 ];
