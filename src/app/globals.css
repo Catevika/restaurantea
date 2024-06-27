@@ -309,6 +309,7 @@ q {
   margin: 0;
   padding: 2em;
   width: 50%;
+  min-height: 466px;
 }
 
 .container__card__popular {
@@ -446,6 +447,7 @@ q {
 }
 
 .img__popularcard {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -680,6 +682,7 @@ q {
   .content__popular {
     flex-wrap: wrap;
     justify-content: center;
+    margin: 1rem auto;
   }
 
   .content__services {
@@ -754,7 +757,7 @@ q {
   }
 
   main {
-    padding: 0 1em;
+    margin: 1rem 0;
   }
 
   h5 {
@@ -763,6 +766,7 @@ q {
 
   .container__color__bg {
     text-align: center;
+    margin: 1rem auto;
     width: calc(100% - 2rem);
   }
 

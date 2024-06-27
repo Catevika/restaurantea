@@ -55,7 +55,7 @@ export default function HomePage() {
           </div>
         </article>
         <article className='container__color__bg bg__white column__content__horizontal__start'>
-          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Today&apos;s Menu</h6>
+          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Today&apos;s Menu</h6>
           <div className='container__wrap content__vertical__top'>
             <div className='left__color__bg'>
               <h4 className={cormorantInfant.className}>Chef&apos;s Special of the Day</h4>
@@ -75,7 +75,7 @@ export default function HomePage() {
         </article>
       </section>
       <section className='container__color__bg column__content__horizontal__start'>
-        <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Testimonials</h6>
+        <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Testimonials</h6>
         <h4 className={cormorantInfant.className}>What our Clients say</h4>
         <p>We love to hear from our customers, so please leave a comment or say hello at <span className='active'>restaurantea-testimonial@gmail.com</span></p>
         <TestimonialList />
@@ -83,13 +83,13 @@ export default function HomePage() {
       <section className='column bg__white'>
         <Image src='/images/suspended-lights.png' alt='' width={1440} height={560} priority />
         <div className='container__color__bg'>
-          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Offers</h6>
+          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Offers</h6>
           <h4 className={cormorantInfant.className}>Our Special Deals</h4>
           <p className='text__horizontal__center left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ipsam.</p>
           <OfferList />
         </div>
         <div className='container__color__bg'>
-          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Menu</h6>
+          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Menu</h6>
           <h4 className={cormorantInfant.className}>Popular Selection</h4>
           <p className='text__horizontal__center left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, fugiat!</p>
           <PopularList />
@@ -98,7 +98,7 @@ export default function HomePage() {
       <section className='container column__content__horizontal__start'>
         <div className='container content__services'>
           <div className='left'>
-            <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Our services</h6>
+            <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Our services</h6>
             <h4 className={cormorantInfant.className}>For your convenience</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur in consectetur, voluptatibus ut quaerat ipsum.</p>
           </div>

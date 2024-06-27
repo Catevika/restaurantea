@@ -4,7 +4,7 @@ import { cormorantInfant, josefinSans } from '@/fonts';
 export default function ReservationForm() {
   return (
     <form className='column form'>
-      <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`} id='menu'>Reservation</h6>
+      <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Reservation</h6>
       <h4 className={cormorantInfant.className}>Book your table now</h4>
       <div className='container content__form'>
         <p className='column column__content__horizontal__start'>
