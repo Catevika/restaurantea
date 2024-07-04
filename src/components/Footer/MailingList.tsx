@@ -8,9 +8,9 @@ export default function MailingList() {
       <h4 className={cormorantInfant.className}>Join our mailing list</h4>
       <p>Get updates on events & exclusive offers.</p>
       <form className='column form__content__mailing content__horizontal__start'>
-        <label htmlFor="email">Email</label>
-        <input type="email" id='email' placeholder='Email' name='email' title='Email' autoComplete='email' />
-        <ReverseButton type='submit' link='#!' text='Subscribe' />
+        <label htmlFor='email-mailing'>Email</label>
+        <input type='email' id='email-mailing' placeholder='Email' name='email' title='Email' autoComplete='email' />
+        <ReverseButton type='submit' text='Subscribe' />
       </form>
     </div>
   );

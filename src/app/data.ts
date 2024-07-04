@@ -12,20 +12,20 @@ export const details = [
     "icon": "/icons/hours.svg",
     "alt": "Hours icon",
     "title": "Open Hours",
-    "paragraph": "Monday - Sunday: 07:00 AM - 24:00 PM"
+    "paragraph": "Monday - Sunday: 07:00 AM - 12:00 AM"
   },
   {
     "id": 3,
     "icon": "/icons/reservation.svg",
     "alt": "Reservation icon",
     "title": "Reservation",
-    "paragraph": "resa@gmail.com"
+    "paragraph": "restaurantea-reservation@gmail.com"
   }
 ];
 
 export const starters = [
   {
-    "id": 1,
+    "id": 4,
     "iconClass": "icon__xl",
     "icon": '/images/mini-burger.png',
     "alt": "",
@@ -34,7 +34,7 @@ export const starters = [
     "price": 10
   },
   {
-    "id": 2,
+    "id": 5,
     "iconClass": "icon__xl",
     "icon": '/images/caprese-salad.png',
     "alt": "",
@@ -43,7 +43,7 @@ export const starters = [
     "price": 15
   },
   {
-    "id": 3,
+    "id": 6,
     "iconClass": "icon__xl",
     "icon": '/images/feta-salad.png',
     "alt": "",
@@ -55,7 +55,7 @@ export const starters = [
 
 export const dishes = [
   {
-    "id": 1,
+    "id": 7,
     "iconClass": "icon__xl",
     "icon": '/images/grilled-salmon.png',
     "alt": "",
@@ -64,7 +64,7 @@ export const dishes = [
     "price": 25
   },
   {
-    "id": 2,
+    "id": 8,
     "iconClass": "icon__xl",
     "icon": '/images/pizza.png',
     "alt": "",
@@ -73,7 +73,7 @@ export const dishes = [
     "price": 18
   },
   {
-    "id": 3,
+    "id": 9,
     "iconClass": "icon__xl",
     "icon": '/images/veggie-burger.png',
     "alt": "",
@@ -82,7 +82,7 @@ export const dishes = [
     "price": 20
   },
   {
-    "id": 4,
+    "id": 10,
     "iconClass": "icon__xl",
     "icon": '/images/tacos.png',
     "alt": "",
@@ -94,7 +94,7 @@ export const dishes = [
 
 export const desserts = [
   {
-    "id": 1,
+    "id": 11,
     "iconClass": "icon__xl",
     "icon": '/images/apple-pie.png',
     "alt": "",
@@ -103,7 +103,7 @@ export const desserts = [
     "price": 10
   },
   {
-    "id": 2,
+    "id": 12,
     "iconClass": "icon__xl",
     "icon": '/images/lemon-pie.png',
     "alt": "",
@@ -112,7 +112,7 @@ export const desserts = [
     "price": 15
   },
   {
-    "id": 3,
+    "id": 13,
     "iconClass": "icon__xl",
     "icon": '/images/ice-cream.png',
     "alt": "",
@@ -124,58 +124,58 @@ export const desserts = [
 
 export const testimonials = [
   {
-    "id": 1,
+    "id": 14,
     "src": "/images/customer-1.png",
     "alt": "Profile picture",
     "fullname": "Sean Johnson",
     "city": "New-York",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quod!"
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit quae minima sunt perferendis consequatur pariatur non eaque libero sed?"
   },
   {
-    "id": 2,
+    "id": 15,
     "src": "/images/customer-2.png",
     "alt": "Profile picture",
     "fullname": "Stefany Miller",
     "city": "Salt-Lake-City",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, tempora."
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore officia assumenda quod hic molestias illo nemo quos ipsa deleniti aliquid."
   },
   {
-    "id": 3,
+    "id": 16,
     "src": "/images/customer-3.png",
     "alt": "Profile picture",
     "fullname": "John Taylor",
     "city": "San-Diego",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, magnam."
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sunt suscipit sit quia error dolor expedita corporis architecto distinctio assumenda."
   },
   {
-    "id": 4,
+    "id": 17,
     "src": "/images/customer-1.png",
     "alt": "Profile picture",
     "fullname": "Sean Johnson",
     "city": "New-York",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quod!"
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit quae minima sunt perferendis consequatur pariatur non eaque libero sed?"
   },
   {
-    "id": 5,
+    "id": 18,
     "src": "/images/customer-2.png",
     "alt": "Profile picture",
     "fullname": "Stefany Miller",
     "city": "Salt-Lake-City",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, tempora."
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore officia assumenda quod hic molestias illo nemo quos ipsa deleniti aliquid."
   },
   {
-    "id": 6,
+    "id": 19,
     "src": "/images/customer-3.png",
     "alt": "Profile picture",
     "fullname": "John Taylor",
     "city": "San-Diego",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, magnam."
+    "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sunt suscipit sit quia error dolor expedita corporis architecto distinctio assumenda."
   }
 ];
 
 export const offers = [
   {
-    "id": 1,
+    "id": 20,
     "bckg": "bg__sky",
     "textColor": "text__black",
     "iconSrc": "/icons/offer.svg",
@@ -191,7 +191,7 @@ export const offers = [
     "paragraph": "Lorem ipsum dolor sit amet consectetur."
   },
   {
-    "id": 2,
+    "id": 21,
     "bckg": "bg__light__gray",
     "textColor": "text__white",
     "iconSrc": "/icons/offer-black.svg",
@@ -210,7 +210,7 @@ export const offers = [
 
 export const populars = [
   {
-    "id": 1,
+    "id": 22,
     "src": "/images/meat-balls-popular.png",
     "width": 452,
     "height": 408,
@@ -219,7 +219,7 @@ export const populars = [
     "paragraph": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam!"
   },
   {
-    "id": 2,
+    "id": 23,
     "src": "/images/hot-dog-popular.png",
     "width": 321,
     "height": 310,
@@ -228,7 +228,7 @@ export const populars = [
     "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam!"
   },
   {
-    "id": 3,
+    "id": 24,
     "src": "/images/cheese-burger-popular.png",
     "width": 321,
     "height": 310,
@@ -237,7 +237,7 @@ export const populars = [
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis!"
   },
   {
-    "id": 4,
+    "id": 25,
     "src": "/images/tacos-popular.png",
     "width": 768,
     "height": 768,
@@ -249,18 +249,88 @@ export const populars = [
 
 export const services = [
   {
-    "id": 1,
+    "id": 26,
     "src": "/icons/service-1.svg",
-    "text": "Seamless service 7/7"
+    "text": "Seamless service 7/7 from 7:00AM to 12:00AM"
   },
   {
-    "id": 2,
+    "id": 27,
     "src": "/icons/service-2.svg",
-    "text": "Chef's Menu of the day"
+    "text": "Daily Chef's Menu"
   },
   {
-    "id": 3,
+    "id": 28,
     "src": "/icons/service-3.svg",
-    "text": "30min. Home Delivery"
+    "text": "Home Delivery within 30min. Free"
+  }
+];
+
+export const aboutProducts = [
+  {
+    "id": 29,
+    "icon": "/icons/fresh-product.svg",
+    "alt": "",
+    "title": "Fresh Product",
+    "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing."
+  },
+  {
+    "id": 30,
+    "icon": "/icons/chefs-hat.svg",
+    "alt": "",
+    "title": "Skilled Chefs",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+  {
+    "id": 31,
+    "icon": "/icons/drinks.svg",
+    "alt": "",
+    "title": "Drinks & Juices",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing."
+  },
+  {
+    "id": 32,
+    "icon": "/icons/vegan.svg",
+    "alt": "",
+    "title": "Vegan Cuisine",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  },
+];
+
+export const chefs = [
+  {
+    "id": 33,
+    "src": "/images/chef-1.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 718,
+    "fullname": "Lily Chen",
+    "title": "Chef de partie"
+  },
+  {
+    "id": 34,
+    "src": "/images/chef-2.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 696,
+    "fullname": "Evan Mattew",
+    "title": "Executive Chef"
+  },
+  {
+    "id": 35,
+    "src": "/images/chef-3.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 718,
+    "fullname": "Dion Clarkson",
+    "title": "Head Chef"
+  },
+  {
+    "id": 36,
+    "src": "/images/chef-4.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 714,
+    "fullname": "Dan Rafalin",
+    "title": "Chef de partie"
   }
 ];

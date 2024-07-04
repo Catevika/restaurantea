@@ -1,5 +1,5 @@
 import { details } from '@/app/data';
-import IconCard from '@/components/Cards/IconCard/IconCard';
+import IconCard from '@/components/Cards/IconCard';
 import Icon from '@/components/Icon/Icon';
 
 export default function DetailList() {

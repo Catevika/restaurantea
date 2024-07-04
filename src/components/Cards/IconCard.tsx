@@ -4,7 +4,7 @@ export default function IconCard({ icon, title, paragraph }: { icon: JSX.Element
   return (
     <div className='container__card__details'>
       {icon}
-      <div className='column column__content__horizontal__start'>
+      <div className='column col__h__start'>
         <h5 className={cormorantInfant.className}>{title}</h5>
         <p>{paragraph}</p>
       </div>

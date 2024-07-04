@@ -1,8 +1,7 @@
 import { josefinSans } from '@/fonts';
-import Link from 'next/link';
 
-export default function Button({ type, link, text }: { type: 'button' | 'reset' | 'submit' | undefined, link: string, text: string; }) {
+export default function Button({ type, text }: { type: 'button' | 'reset' | 'submit' | undefined, text: string; }) {
   return (
-    <button type={type} className={`${josefinSans.className} reverseButton`} title={text}><Link href={link}>{text}</Link></button>
+    <button type={type} className={`${josefinSans.className} reverseButton`} title={text}>{text}</button>
   );
 }

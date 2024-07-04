@@ -16,7 +16,7 @@ export default function OfferCard({ bckg, textColor, iconXl, textClass, price, p
         <h4 className={cormorantInfant.className}>{product}</h4>
         <p>{paragraph}</p>
       </div>
-      <Image className='small' src={imgSrc} alt='' width={imgWidth} height={imgHeight} priority />
+      <Image className='medium' src={imgSrc} alt='' width={imgWidth} height={imgHeight} priority />
     </div>
   );
 }

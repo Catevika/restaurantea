@@ -1,5 +1,5 @@
 import { offers } from '@/app/data';
-import OfferCard from '@/components/Cards/OfferCard/OfferCard';
+import OfferCard from '@/components/Cards/OfferCard';
 import IconXl from '@/components/Icon/IconXl';
 export default function OfferList() {
   return (

@@ -1,5 +1,5 @@
 import Button from '@/components/Buttons/Button';
-import ReverseButton from '@/components/Buttons/ReverseButton';
+import WhiteButton from '@/components/Buttons/WhiteButton';
 import ReservationForm from '@/components/Forms/ReservationForm';
 import DessertList from '@/components/Home/DessertList';
 import DetailList from '@/components/Home/DetailList';
@@ -9,72 +9,76 @@ import PopularList from '@/components/Home/PopularList';
 import ServiceList from '@/components/Home/ServiceList';
 import StarterList from '@/components/Home/StarterList';
 import TestimonialList from '@/components/Home/TestimonialList';
+import JosefineSign from '@/components/JosefineSign/JosefineSign';
 import { cormorantInfant, josefinSans } from '@/fonts';
 import Image from 'next/image';
 
 export default function HomePage() {
   return (
     <main>
-      <section className='container__wrap'>
-        <div className='left'>
+      <section className='container__color__bg__hero'>
+        <div className='column col__h__start left__35'>
           <h1 className={cormorantInfant.className}>Welcome&nbsp;to Restaurantea</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, laudantium.</p>
-          <Button type='button' link='/menu' text='View Full Menu' />
-        </div>
-        <div className="right__small">
-          <Image src='/images/hero.png' alt='' sizes='50vw' width={0} height={0} priority />
+          <Button link='/menu' text='View Full Menu' />
         </div>
       </section>
-      <section className='column bg__white'>
-        <article className='container__color__bg bg__light'>
-          <div className='container__color__bg bg__light'>
+      <section className='column bg__white container__detailList'>
+        <Image className='heroImg' src='/images/hero.png' alt='' sizes='30vw' width={0} height={0} priority />
+        <article className='container__color__bg bg__light container__detailList__article'>
+          <div className='container-sub__color__bg bg__light'>
             <DetailList />
-            <div className='container container__about content__about'>
-              <Image src='/images/history.png' alt='' sizes='50vw' width={0} height={0} priority />
-              <div className='right__small border__left__gray'>
-                <div className='column column__content__horizontal__start'>
-                  <h4 className={cormorantInfant.className}>The Story</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit minus ab minima, molestias laboriosam excepturi, ipsa facilis fugit iusto libero voluptas voluptate cupiditate.</p>
+            <div className='container container__history'>
+              <div className='left__60'>
+                <Image src='/images/history.png' alt='' sizes='50vw' width={0} height={0} priority />
+              </div>
+              <div className='right__40 border__left__gray'>
+                <div className='column col__h__start'>
+                  <h5 className={cormorantInfant.className}>The Story</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nihil totam quisquam placeat, nesciunt consectetur mollitia debitis vel? Asperiores, delectus.</p>
                 </div>
-                <div className='container content__about content__vertical__top'>
+                <div className='container row__v__top content__history'>
                   <div className='column'>
-                    <h4 className={cormorantInfant.className}>1996</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, ea.</p>
+                    <h5 className={cormorantInfant.className}>1996</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
                   </div>
                   <div className='column'>
-                    <h4 className={cormorantInfant.className}>2021</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae eius sed quas ut porro eveniet?</p>
+                    <h5 className={cormorantInfant.className}>2021</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque!</p>
                   </div>
                 </div>
-                <div className='column container__about__josephine column__content__horizontal__start'>
-                  <h6 className={`${josefinSans.className} normal text__uppercase`}>Josefine</h6>
-                  <Image className='small' src='/images/signature.png' alt='' sizes='10vw' width={0} height={0} priority />
-                </div>
+                <JosefineSign />
               </div>
             </div>
           </div>
         </article>
-        <article className='container__color__bg bg__white column__content__horizontal__start'>
+        <article className='container__color__bg bg__white col__h__start container__todayMenu'>
           <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Today&apos;s Menu</h6>
-          <div className='container__wrap content__vertical__top'>
-            <div className='left__color__bg'>
+          <div className='container row__v__top container__dishes'>
+            <div className='column col__h__start left__25'>
               <h4 className={cormorantInfant.className}>Chef&apos;s Special of the Day</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nostrum eos dicta illum blanditiis magnam saepe nisi explicabo! Fugit, sequi quos! Cumque dolorem neque explicabo.</p>
               <Image src='/images/menu-offer.png' alt='' width={796} height={1096} priority />
-              <ReverseButton type='button' link='/menu' text='View Full Menu' />
+              <WhiteButton link='/menu' text='View Full Menu' />
             </div>
-            <div className='right__large'>
-              <h4 className={cormorantInfant.className}>Daily specials - Starters</h4>
-              <StarterList />
-              <h4 className={cormorantInfant.className}>Daily specials - Main course</h4>
-              <MainDishList />
-              <h4 className={cormorantInfant.className}>Daily specials - Desserts</h4>
-              <DessertList />
+            <div className='right__65'>
+              <div className='column col__h__start content__card__home__menu'>
+                <h4 className={cormorantInfant.className}>Daily specials - Starters</h4>
+                <StarterList />
+              </div>
+              <div className='column col__h__start content__card__home__menu'>
+                <h4 className={cormorantInfant.className}>Daily specials - Main course</h4>
+                <MainDishList />
+              </div>
+              <div className='column col__h__start content__card__home__menu'>
+                <h4 className={cormorantInfant.className}>Daily specials - Desserts</h4>
+                <DessertList />
+              </div>
             </div>
           </div>
         </article>
       </section>
-      <section className='container__color__bg column__content__horizontal__start'>
+      <section className='container__color__bg col__h__start'>
         <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Testimonials</h6>
         <h4 className={cormorantInfant.className}>What our Clients say</h4>
         <p>We love to hear from our customers, so please leave a comment or say hello at <span className='active'>restaurantea-testimonial@gmail.com</span></p>
@@ -88,24 +92,22 @@ export default function HomePage() {
           <p className='text__horizontal__center left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, ipsam.</p>
           <OfferList />
         </div>
-        <div className='container__color__bg'>
+        <div className='container__color__bg container__home__menu'>
           <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Menu</h6>
           <h4 className={cormorantInfant.className}>Popular Selection</h4>
           <p className='text__horizontal__center left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, fugiat!</p>
           <PopularList />
         </div>
       </section>
-      <section className='container column__content__horizontal__start'>
-        <div className='container content__services'>
-          <div className='left'>
-            <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Our services</h6>
-            <h4 className={cormorantInfant.className}>For your convenience</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur in consectetur, voluptatibus ut quaerat ipsum.</p>
-          </div>
-          <ServiceList />
+      <section className='container__color__bg col__h__start'>
+        <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Our services</h6>
+        <div className='content__services'>
+          <h4 className={cormorantInfant.className}>For your convenience</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur in consectetur, voluptatibus ut quaerat ipsum.</p>
         </div>
+        <ServiceList />
       </section>
-      <section className='form__container'>
+      <section className='container__form'>
         <Image src='/images/restaurant-reservation.png' alt='' width={1920} height={1080} priority />
         <ReservationForm />
       </section>

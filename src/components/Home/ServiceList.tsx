@@ -1,5 +1,5 @@
 import { services } from '@/app/data';
-import ServiceCard from '@/components/Cards/ServiceCard/ServiceCard';
+import ServiceCard from '@/components/Cards/ServiceCard';
 import Icon from '@/components/Icon/Icon';
 
 export default function ServiceList() {
