@@ -47,10 +47,10 @@ apple pie:
 Photo by [Karen Laårk Boshoff](https://www.pexels.com/fr-fr/photo/nourriture-aliments-dessert-sucre-13069484/)
 
 lemon pie:
-Photo by [an_vision](https://unsplash.com/@anvision?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/creme-brulee-esVjV01_E9Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+Photo by [Christian Bowen](https://unsplash.com/@chrishcush?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/yellow-and-white-cupcake-on-white-and-blue-checkered-textile-Dpa0uuK8Mcc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ice-cream:
-Photo by [DS stories](https://www.pexels.com/fr-fr/photo/nourriture-tasse-cuillere-blanc-9227715/)
+Photo by [Kobby Mendez](https://unsplash.com/@kobbymendez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/white-ice-cream-on-brown-cookie-idTwDKt2j2o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
 ### Testimonials
 
@@ -94,3 +94,44 @@ Photo by [Jason Leung](https://unsplash.com/@ninjason?utm_content=creditCopyText
 ### About Hero
 
 Photo by [Favour Otunji](https://unsplash.com/@kodeblacc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-dinette-set-lot-dD7xFyDzES4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+## Menu Page
+
+### Beverages
+
+Still water:
+Photo by Thad Zajdowicz on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Water_Bottles_Image.png)
+
+Sparkling water:
+Photo by Zinneke on [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Source_Roxane_Hovelange_(Cactus,_365_Delhaize,_Cristalline).jpg>)
+
+Sodas:
+Photo by [Krzysztof Hepner](https://unsplash.com/@nsx_2000?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/two-coca-cola-cans-on-stainless-steel-table-MTOjTacH2zg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+White wine:
+Photo by [Jp Valery](https://unsplash.com/@jpvalery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/clear-wine-glass-on-brown-wooden-table-XTYoDjmXRag?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Coffee - tea:
+Photo by [Alisher Sharip](https://unsplash.com/@aligrapher?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-ceramic-teapot-with-cups-mumpl9-D7Uc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Beverages bottom section:
+Photo by [Divya Agrawal](https://unsplash.com/@divya_agrawal?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/clear-drinking-glass-with-red-liquid-W9bDbSuqW8k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+### Starters menu
+
+Starter Salmon:
+Photo by [Wesual Click](https://unsplash.com/@wesual?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/round-white-ceramic-plate-with-lime-on-top-DhLl68_M5k4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Starter Avocado:
+Photo by [Anna Pelzer](https://unsplash.com/@annapelzer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/two-sliced-breads-with-avocado-on-top-QcUJLRMDryQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Starter mixed Salad:
+Photo by [I E](https://unsplash.com/@iemanuel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/assorted-vegetable-dish-KRGFXJWIo2Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+### Desserts menu
+
+Chocolate Raspberry pie:
+Photo by [Hisu lee](https://unsplash.com/@lee_hisu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/photo-of-chocolate-cupcake-with-berry-toppings-on-white-ceramic-plate-JVK7ssGd1qc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Brownie raspberry:
+Photo by [Anto Meneghini](https://unsplash.com/@antomeneghini?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/raspberries-and-chocolate-cake-in-plate-on-table-iPkY0inAV4I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

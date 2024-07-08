@@ -62,15 +62,15 @@ export default function HomePage() {
               <WhiteButton link='/menu' text='View Full Menu' />
             </div>
             <div className='right__65'>
-              <div className='column col__h__start content__card__home__menu'>
+              <div className='column col__h__start'>
                 <h4 className={cormorantInfant.className}>Daily specials - Starters</h4>
                 <StarterList />
               </div>
-              <div className='column col__h__start content__card__home__menu'>
+              <div className='column col__h__start'>
                 <h4 className={cormorantInfant.className}>Daily specials - Main course</h4>
                 <MainDishList />
               </div>
-              <div className='column col__h__start content__card__home__menu'>
+              <div className='column col__h__start'>
                 <h4 className={cormorantInfant.className}>Daily specials - Desserts</h4>
                 <DessertList />
               </div>

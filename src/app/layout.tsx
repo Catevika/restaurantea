@@ -1,4 +1,5 @@
 import "@/app/globals.css";
+import BackToTopButton from '@/components/Buttons/BackToTopButton';
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import { josefinSans } from '@/fonts';
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={josefinSans.className}>
         <Header />
         {children}
+        <BackToTopButton />
         <Footer />
       </body>
     </html>

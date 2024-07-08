@@ -104,6 +104,23 @@ a.whiteButton:focus-visible {
   border: 2px solid var(--color-gold);
 }
 
+button.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+  width: 3rem;
+  height: 3rem;
+  padding-bottom: 0.5rem;
+  border-radius: 50%;
+  color: var(--color-dark);
+  background-color: var(--color-gold);
+  box-shadow: 0 0 5px var(--color-gray);
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  z-index: 100;
+}
+
 footer .content__footer p {
   margin: 0.5rem;
 }
@@ -396,6 +413,10 @@ q {
   margin-top: 0;
 }
 
+.container__card__dishes {
+  width: 100%;
+}
+
 .container__card__testimonial {
   margin: 2rem 0 0.5rem 2rem;
 }
@@ -503,13 +524,20 @@ q {
 .container__aboutProducts {
   background: url('/images/aboutus-bg.png');
   background-position: center;
-  height: 539px;
-  width: auto;
-  margin: -5rem -4rem 0;
+  width: calc(100% + 8rem);
 }
 
-.container_card_aboutProducts:not(:last-child) {
+.container__aboutProducts .column,
+.container__card__aboutProducts .column {
+  width: unset;
+}
+
+.container__card__aboutProducts:not(:last-child) {
   border-right: 1px solid var(--color-light-gray);
+}
+
+.container__card__aboutProducts {
+  margin: 2rem 0;
 }
 
 .container__card__product {
@@ -537,6 +565,17 @@ q {
   gap: 1rem;
 }
 
+.container__chefs .column {
+  width: unset;
+  margin: 0 auto;
+}
+
+.container__card__chefs {
+  width: 260px;
+  height: auto;
+  justify-content: flex-start;
+}
+
 .container__card__chef {
   width: 260px;
   height: auto;
@@ -553,6 +592,14 @@ q {
 
 .container__footer .logo img {
   padding-left: 7rem;
+}
+
+.container__menu>.container__color__bg:not(:first-child) {
+  background-color: var(--color-white);
+}
+
+.container__card__menu:not(:first-of-type) {
+  margin-top: -8rem;
 }
 
 .column {
@@ -657,6 +704,12 @@ q {
 
 .content__footer p {
   text-align: center;
+}
+
+.content__beverages__img {
+  width: auto;
+  height: 450px;
+  overflow: hidden;
 }
 
 .img__popularcard {
@@ -777,6 +830,10 @@ q {
   width: 60%;
 }
 
+.left__65 {
+  width: 65%;
+}
+
 .right__40 {
   width: 40%;
 }
@@ -834,6 +891,13 @@ q {
   padding-top: 1em;
 }
 
+.content__menu__section__img {
+  max-height: 430px;
+  width: auto;
+  margin: 0 -4rem;
+  overflow: hidden;
+}
+
 @media(max-width: 1205px) {
   .container__offers {
     flex-wrap: wrap;
@@ -848,6 +912,10 @@ q {
   input {
     width: 100%;
     margin-right: 0;
+  }
+
+  .container__color__bg {
+    width: calc(100% - 4rem);
   }
 
   .content__form {
@@ -874,6 +942,10 @@ q {
     margin: 0;
   }
 
+  .container__form img {
+    display: none;
+  }
+
   .form {
     position: relative;
     top: unset;
@@ -884,15 +956,59 @@ q {
     padding: 0;
     background-color: transparent;
   }
+
+  .container__aboutProducts {
+    width: calc(100% + 4rem);
+  }
+
+  .content__menu__section__img {
+    margin: 0 -2rem;
+  }
+}
+
+@media(max-width: 1330px) {
+  .container__aboutProducts {
+    flex-wrap: wrap;
+    background-size: cover;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    height: 100%;
+  }
+
+  .container__card__aboutProducts {
+    margin: 0;
+  }
+
+  .container__card__aboutProducts:not(:last-child) {
+    border-right: none;
+  }
+
+  .container__cards:not(.container__stars).container__aboutProducts {
+    gap: 2rem;
+    margin: 0;
+  }
+
+  .container__chefs {
+    flex-wrap: wrap;
+  }
 }
 
 @media(max-width: 1140px) {
-  .container__color__bg {
-    width: calc(100% - 2rem);
+  .container__cards:not(.container__stars).container__aboutProducts {
+    justify-content: center;
+  }
+
+  .container__card__aboutProducts:not(:last-child) {
+    border-bottom: 1px solid var(--color-white);
   }
 
   .container__aboutProducts {
-    margin: -5rem -1rem 0;
+    width: calc(100% + 2rem);
+  }
+
+  .container__aboutProducts .icon__large {
+
+    margin-top: 0;
   }
 
   .container__aboutus {
@@ -909,13 +1025,6 @@ q {
     bottom: unset;
     left: unset;
     margin-bottom: 2rem;
-  }
-
-  .container__aboutProducts {
-    flex-wrap: wrap;
-    background-repeat: repeat-y;
-    margin: 2rem 0;
-    height: 100%;
   }
 
   .container__stars {
@@ -936,6 +1045,14 @@ q {
   header .container__social__icons,
   header .container__social__icons img {
     display: none;
+  }
+
+  .container__cards:not(.container__stars).container__chefs {
+    justify-content: center;
+  }
+
+  .container__card__aboutProducts {
+    margin: 0;
   }
 }
 
@@ -1072,6 +1189,13 @@ q {
   .content__history {
     flex-wrap: wrap;
     width: 100%;
+  }
+
+  .content__beverages__img,
+  .content__beverages__img img,
+  .content__starters__img,
+  .content__starters__img img {
+    display: none;
   }
 }
 
@@ -1250,6 +1374,10 @@ q {
 
   .container__stars {
     width: 100%;
+  }
+
+  .content__menu__section__img {
+    margin: 0 -1rem;
   }
 }
 

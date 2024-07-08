@@ -29,7 +29,7 @@ export const starters = [
     "iconClass": "icon__xl",
     "icon": '/images/mini-burger.png',
     "alt": "",
-    "title": "Fresh Goat Mini Burger",
+    "title": "Fresh Goat Cheese Mini Burger",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 10
   },
@@ -86,7 +86,7 @@ export const dishes = [
     "iconClass": "icon__xl",
     "icon": '/images/tacos.png',
     "alt": "",
-    "title": "Gourmet Tacos",
+    "title": "Gourmet Chicken Tacos",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 35
   }
@@ -244,7 +244,7 @@ export const populars = [
     "title": "Mexican Tacos",
     "price": 20,
     "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At?"
-  },
+  }
 ];
 
 export const services = [
@@ -332,5 +332,243 @@ export const chefs = [
     "height": 714,
     "fullname": "Dan Rafalin",
     "title": "Chef de partie"
+  }
+];
+
+export const beverages = [
+  {
+    "id": 37,
+    "src": "/images/still-water.png",
+    "width": 1,
+    "height": 2,
+    "title": "Still Water - 1l",
+    "price": 4,
+    "paragraph": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 38,
+    "src": "/images/sparkling-water.png",
+    "width": 1,
+    "height": 2,
+    "title": "Sparkling Water - 1l",
+    "price": 5,
+    "paragraph": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 39,
+    "src": "/images/sodas.png",
+    "width": 1,
+    "height": 2,
+    "title": "Sodas - 33cl",
+    "price": 3,
+    "paragraph": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 40,
+    "src": "/images/white-wine.png",
+    "width": 1,
+    "height": 2,
+    "title": "Red or White Wine - 75cl",
+    "price": 35,
+    "paragraph": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 41,
+    "src": "/images/cocktails.png",
+    "width": 1,
+    "height": 2,
+    "title": "Cocktails - 25cl",
+    "price": 8,
+    "paragraph": "Lorem ipsum dolor sit amet."
+  },
+  {
+    "id": 42,
+    "src": "/images/coffee-tea.png",
+    "width": 1,
+    "height": 2,
+    "title": "Coffee or Tea",
+    "price": 7,
+    "paragraph": "Lorem ipsum dolor sit amet."
+  },
+];
+
+
+export const startersMenu = [
+  {
+    "id": 43,
+    "iconClass": "icon__xl",
+    "icon": '/images/starter-mixedsalad.png',
+    "alt": "",
+    "title": "Mixed Veggie Salad",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 10
+  },
+  {
+    "id": 44,
+    "iconClass": "icon__xl",
+    "icon": '/images/caprese-salad.png',
+    "alt": "",
+    "title": "Italian Caprese Salad",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 15
+  },
+  {
+    "id": 45,
+    "iconClass": "icon__xl",
+    "icon": '/images/starter-salmon.png',
+    "alt": "",
+    "title": "Fresh Salmon & Dill",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 15
+  },
+  {
+    "id": 46,
+    "iconClass": "icon__xl",
+    "icon": '/images/starter-avocado.png',
+    "alt": "",
+    "title": "Avocado toast",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 15
+  },
+  {
+    "id": 47,
+    "iconClass": "icon__xl",
+    "icon": '/images/feta-salad.png',
+    "alt": "",
+    "title": "Greek Feta Cheese Salad",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 15
+  },
+  {
+    "id": 48,
+    "iconClass": "icon__xl",
+    "icon": '/images/mini-burger.png',
+    "alt": "",
+    "title": "Fresh Goat Cheese Mini Burger",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 10
+  }
+];
+
+export const dishesMenu = [
+  {
+    "id": 49,
+    "iconClass": "icon__xl",
+    "icon": '/images/grilled-salmon.png',
+    "alt": "",
+    "title": "Grilled Salmon",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 25
+  },
+  {
+    "id": 50,
+    "iconClass": "icon__xl",
+    "icon": "/images/meat-balls-popular.png",
+    "alt": "",
+    "title": "Meatballs",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam!",
+    "price": 15
+  },
+  {
+    "id": 51,
+    "iconClass": "icon__xl",
+    "icon": '/images/burger-offer.png',
+    "alt": "",
+    "title": "Veggie Burger",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 20
+  },
+  {
+    "id": 52,
+    "icon": "/images/cheese-burger-popular.png",
+    "iconClass": "icon__xl",
+    "alt": "",
+    "title": "Cheese Burger",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis!",
+    "price": 25
+  },
+  {
+    "id": 53,
+    "iconClass": "icon__xl",
+    "icon": "/images/hot-dog-popular.png",
+    "alt": "",
+    "title": "Spicy Hot-dogs",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam!",
+    "price": 10
+  },
+  {
+    "id": 54,
+    "iconClass": "icon__xl",
+    "icon": '/images/tacos.png',
+    "alt": "",
+    "title": "Gourmet Chicken Tacos",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 35
+  },
+  {
+    "id": 55,
+    "icon": "/images/tacos-popular.png",
+    "iconClass": "icon__xl",
+    "alt": "",
+    "title": "Mexican Veggie Tacos",
+    "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At?",
+    "price": 20
+  },
+  {
+    "id": 56,
+    "iconClass": "icon__xl",
+    "icon": '/images/pizza.png',
+    "alt": "",
+    "title": "Royal Pizza",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 18
+  }
+];
+
+export const dessertsMenu = [
+  {
+    "id": 57,
+    "iconClass": "icon__xl",
+    "icon": '/images/apple-pie.png',
+    "alt": "",
+    "title": "Apple Pie",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 10
+  },
+  {
+    "id": 58,
+    "iconClass": "icon__xl",
+    "icon": '/images/lemon-pie.png',
+    "alt": "",
+    "title": "Lemon Pie",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 15
+  },
+  {
+    "id": 59,
+    "iconClass": "icon__xl",
+    "icon": '/images/chocolate-raspberry-pie.png',
+    "alt": "",
+    "title": "Chocolate Raspberry Pie",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 15
+  },
+  {
+    "id": 60,
+    "iconClass": "icon__xl",
+    "icon": '/images/brownie-raspberry.png',
+    "alt": "",
+    "title": "Chocolate Raspberry",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 10
+  },
+  {
+    "id": 61,
+    "iconClass": "icon__xl",
+    "icon": '/images/ice-cream.png',
+    "alt": "",
+    "title": "Ice Cream",
+    "paragraph": "Lorem ipsum dolor sit amet.",
+    "price": 10
   }
 ];
