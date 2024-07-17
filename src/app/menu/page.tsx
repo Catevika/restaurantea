@@ -7,8 +7,6 @@ import StarterListMenu from '@/components/Menu/StarterListMenu';
 import { cormorantInfant, josefinSans } from '@/fonts';
 import Image from 'next/image';
 
-// TODO Trouver d'autres photos pour les desserts
-
 export default function MenuPage() {
   return (
     <main>
@@ -20,15 +18,18 @@ export default function MenuPage() {
         </div>
         <div className='bg__white'>
           <div className='container__color__bg'>
-            <div className='container__color__bg'>
+            <div className='content__menu__section__img'>
+              <Image src='/images/beverages-top.png' alt='' width={1400} height={431} priority />
+            </div>
+            <div className='container__color__bg container__menu__section'>
               <div className='container__card__menu'>
                 <h6 className={`${josefinSans.className} text__uppercase border__tb__gold`}>Beverages</h6>
                 <div className='container'>
-                  <div className='column col__h__start left__25 content__beverages__img'>
+                  <div className='column left__25 content__beverages__img'>
                     <Image src='/images/cocktails-hero.png' alt='' width={379} height={480} priority />
                   </div>
                   <div className='right__65'>
-                    <div className='column col__h__start'>
+                    <div className='column'>
                       <BeverageList />
                     </div>
                   </div>
@@ -39,16 +40,16 @@ export default function MenuPage() {
               </div>
             </div>
             <div className='content__menu__section__img'>
-              <Image src='/images/beverages-bottom.png' alt='' width={1400} height={431} priority />
+              <Image src='/images/starters-top.png' alt='' width={1400} height={431} priority />
             </div>
-            <div className='container__color__bg'>
+            <div className='container__color__bg container__menu__section'>
               <div className='container__card__menu'>
                 <h6 className={`${josefinSans.className} text__uppercase border__tb__gold`}>Starters</h6>
                 <div className='container'>
-                  <div className='column col__h__start right__65'>
+                  <div className='column right__65'>
                     <StarterListMenu />
                   </div>
-                  <div className='column col__h__start left__25 content__starters__img'>
+                  <div className='column left__25 content__starters__img'>
                     <Image src='/images/starter-hero.png' alt='' width={379} height={480} priority />
                   </div>
                 </div>
@@ -58,16 +59,16 @@ export default function MenuPage() {
               </div>
             </div>
             <div className='content__menu__section__img'>
-              <Image src='/images/starters-bottom.png' alt='' width={1400} height={431} priority />
+              <Image src='/images/main-course-top.png' alt='' width={1400} height={430} priority />
             </div>
-            <div className='container__color__bg'>
+            <div className='container__color__bg container__menu__section'>
               <div className='container__card__menu'>
                 <h6 className={`${josefinSans.className} text__uppercase border__tb__gold`}>Main Course</h6>
                 <div className='container'>
-                  <div className='column col__h__start left__25 content__starters__img'>
+                  <div className='column left__25 content__starters__img'>
                     <Image src='/images/main-course-hero.png' alt='' width={320} height={481} priority />
                   </div>
-                  <div className='column col__h__start right__65'>
+                  <div className='column right__65'>
                     <MainDishListMenu />
                   </div>
                 </div>
@@ -77,16 +78,16 @@ export default function MenuPage() {
               </div>
             </div>
             <div className='content__menu__section__img'>
-              <Image src='/images/main-course-bottom.png' alt='' width={1400} height={430} priority />
+              <Image src='/images/desserts-top.png' alt='' width={1400} height={430} priority />
             </div>
-            <div className='container__color__bg'>
+            <div className='container__color__bg container__menu__section'>
               <div className='container__card__menu'>
                 <h6 className={`${josefinSans.className} text__uppercase border__tb__gold`}>Desserts</h6>
                 <div className='container'>
-                  <div className='column col__h__start right__65'>
+                  <div className='column right__65'>
                     <DessertListMenu />
                   </div>
-                  <div className='column col__h__start left__25 content__starters__img'>
+                  <div className='column left__25 content__starters__img'>
                     <Image src='/images/desserts-hero.png' alt='' width={320} height={480} priority />
                   </div>
                 </div>

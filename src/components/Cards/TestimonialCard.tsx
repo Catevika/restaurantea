@@ -5,7 +5,7 @@ export default function TestimonialCard({ src, alt, fullname, city, text }: { sr
   return (
     <div className='column bg__dark'>
       <div className='container container__card__testimonial'>
-        <div className='container__quote content__horizontal__start'>
+        <div className='container__quote row__h__start'>
           <p className='container__quote__images'>
             <Image className='icon__large__round' src={src} alt={alt} width={113} height={113} priority />
             <Image className='icon__quote' src='/icons/quote.svg' alt='' width={34} height={35} priority />

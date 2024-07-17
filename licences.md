@@ -95,6 +95,20 @@ Photo by [Jason Leung](https://unsplash.com/@ninjason?utm_content=creditCopyText
 
 Photo by [Favour Otunji](https://unsplash.com/@kodeblacc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-dinette-set-lot-dD7xFyDzES4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
+### Chefs
+
+Chef 1:
+Photo by [Ketut Subiyanto](https://www.pexels.com/fr-fr/photo/offre-femme-cafeine-cafe-4349736/)
+
+Chef 2:
+Photo by [Tirachard Kumtanom](https://www.pexels.com/photo/chef-holding-white-tea-cup-887827/)
+
+Chef 3:
+Photo by [Miquel Ferran Gomez Figueroa](https://www.pexels.com/fr-fr/photo/homme-en-chemise-blanche-portant-des-lunettes-3814446/)
+
+Chef 4:
+Photo by [Gustavo Fring](https://www.pexels.com/photo/smiling-chef-holding-kitchen-utensils-and-showing-an-ok-hand-sign-6050329/)
+
 ## Menu Page
 
 ### Beverages
@@ -135,3 +149,17 @@ Photo by [Hisu lee](https://unsplash.com/@lee_hisu?utm_content=creditCopyText&ut
 
 Brownie raspberry:
 Photo by [Anto Meneghini](https://unsplash.com/@antomeneghini?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/raspberries-and-chocolate-cake-in-plate-on-table-iPkY0inAV4I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+## Signle Chef page
+
+### Video
+
+Video by [T Leish](https://www.pexels.com/video/avocado-toast-on-a-plate-9020882/)
+
+## Gallery page
+
+### Fresh products
+
+Photo by [Kristina Snowasp](https://www.pexels.com/photo/person-slicing-vegetables-on-chopping-board-9986235/)
+
+Photo by [ROMAN ODINTSOV](https://www.pexels.com/photo/cooked-food-in-close-up-photography-4958526/)

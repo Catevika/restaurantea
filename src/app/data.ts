@@ -304,7 +304,8 @@ export const chefs = [
     "width": 666,
     "height": 718,
     "fullname": "Lily Chen",
-    "title": "Chef de partie"
+    "title": "Chef de partie",
+    "slug": "lilychen"
   },
   {
     "id": 34,
@@ -313,7 +314,8 @@ export const chefs = [
     "width": 666,
     "height": 696,
     "fullname": "Evan Mattew",
-    "title": "Executive Chef"
+    "title": "Executive Chef",
+    "slug": "evanmattew"
   },
   {
     "id": 35,
@@ -322,7 +324,8 @@ export const chefs = [
     "width": 666,
     "height": 718,
     "fullname": "Dion Clarkson",
-    "title": "Head Chef"
+    "title": "Head Chef",
+    "slug": "dionclarkson"
   },
   {
     "id": 36,
@@ -331,7 +334,8 @@ export const chefs = [
     "width": 666,
     "height": 714,
     "fullname": "Dan Rafalin",
-    "title": "Chef de partie"
+    "title": "Chef de partie",
+    "slug": "danrafalin"
   }
 ];
 
@@ -570,5 +574,123 @@ export const dessertsMenu = [
     "title": "Ice Cream",
     "paragraph": "Lorem ipsum dolor sit amet.",
     "price": 10
+  }
+];
+
+export const chefDetails = [
+  {
+    "id": 62,
+    "src": "/images/chef-1.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 718,
+    "fullname": "Lily Chen",
+    "title": "Chef de partie",
+    "slug": "lilychen",
+    "experience": "3 years",
+    "mail": "lilychen@gmail.com",
+    "contact": "987 654 322"
+  },
+  {
+    "id": 63,
+    "src": "/images/chef-2.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 696,
+    "fullname": "Evan Mattew",
+    "title": "Executive Chef",
+    "slug": "evanmattew",
+    "experience": "10 years",
+    "mail": "evanmattew@gmail.com",
+    "contact": "987 654 323"
+  },
+  {
+    "id": 64,
+    "src": "/images/chef-3.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 718,
+    "fullname": "Dion Clarkson",
+    "title": "Head Chef",
+    "slug": "dionclarkson",
+    "experience": "5 years",
+    "mail": "dionclarkson@gmail.com",
+    "contact": "987 654 324"
+  },
+  {
+    "id": 65,
+    "src": "/images/chef-4.png",
+    "alt": "Profile picture",
+    "width": 666,
+    "height": 714,
+    "fullname": "Dan Rafalin",
+    "title": "Chef de partie",
+    "slug": "danrafalin",
+    "experience": "7 years",
+    "mail": "evanmattew@gmail.com",
+    "contact": "987 654 325"
+  }
+];
+
+export const galleryImages = [
+  {
+    "id": 66,
+    "category": "Starter",
+    "name": "Avocado toast",
+    "src": "/images/starter-avocado.png",
+    "alt": "Avocado toast starter",
+    "width": 320,
+    "height": 320,
+    "slug": "starter-avocado"
+  },
+  {
+    "id": 67,
+    "category": "Main course",
+    "name": "Meatballs",
+    "src": "/images/meat-balls-popular.png",
+    "alt": "Meatballs main course",
+    "width": 260,
+    "height": 260,
+    "slug": "meat-balls"
+  },
+  {
+    "id": 68,
+    "category": "Main course",
+    "name": "Cheese Burger",
+    "src": "/images/cheese-burger-popular.png",
+    "alt": "Cheese Burger main course",
+    "width": 260,
+    "height": 260,
+    "slug": "cheese-burger"
+  },
+  {
+    "id": 69,
+    "category": "Main course",
+    "name": "Tacos",
+    "src": "/images/tacos-popular.png",
+    "alt": "Tacos main course",
+    "width": 260,
+    "height": 260,
+    "slug": "tacos"
+  },
+  {
+    "id": 70,
+    "category": "Dessert",
+    "name": "Lemon Pie",
+    "src": "/images/lemon-pie.png",
+    "alt": "Lemon Pie dessert",
+    "width": 234,
+    "height": 234,
+    "slug": "lemon-pie"
+  },
+  {
+    "id": 71,
+    "category": "Dessert",
+    "name": "Brownie",
+    "src": "/images/brownie-raspberry.png",
+    "alt": "Brownie Raspberry dessert",
+    "width": 320,
+    "height": 320,
+    "slug": "brownie-raspberry"
   }
 ];

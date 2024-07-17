@@ -6,7 +6,7 @@ export default function ChefList() {
     <div className='container__cards container__chefs'>
       {chefs ? chefs.map((chef) => (
         <div key={chef.id} className='column container__card__chefs'>
-          <ChefCard src={chef.src} alt={chef.alt} width={chef.width} height={chef.height} fullname={chef.fullname} title={chef.title} />
+          <ChefCard src={chef.src} alt={chef.alt} width={chef.width} height={chef.height} fullname={chef.fullname} title={chef.title} slug={chef.slug} />
         </div>
       )) : null}
     </div>
