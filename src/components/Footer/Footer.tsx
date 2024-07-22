@@ -21,7 +21,7 @@ export default function Footer() {
         <HoursBlock />
       </div>
       <div className='column content__footer'>
-        <p>This website is a customized version of:</p>
+        <p>This website is a customized version - for training purpose only - of:</p>
         <p>© Copyright - Restaurantate | Designed by <Link href='https://www.victorflow.com/' ><span className='active'>VictorFlow</span></Link> Templates - Powered by <span className='active'>Webflow</span></p>
       </div>
     </footer>

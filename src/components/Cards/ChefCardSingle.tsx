@@ -11,7 +11,6 @@ export default function ChefCardSingle() {
   const slug = useParams().slug;
   const currentChef = chefDetails.find((chef) => chef.slug === slug);
 
-
   return (
     <div className='container__color__bg bg__white'>
       {currentChef ?

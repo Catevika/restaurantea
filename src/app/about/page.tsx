@@ -7,6 +7,7 @@ import ReservationForm from '@/components/Forms/ReservationForm';
 import JosefineSign from '@/components/JosefineSign/JosefineSign';
 import { cormorantInfant, josefinSans } from '@/fonts';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function AboutPage() {
   return (
@@ -66,7 +67,9 @@ export default function AboutPage() {
         <div className='container container__color__bg'>
           <h6 className={`${josefinSans.className} text__uppercase border__tb__gold`}>Gallery</h6>
           <h4 className={cormorantInfant.className}>Our Modern Style</h4>
-          <Image src='/images/gallery.png' alt='' width={1920} height={1034} priority />
+          <Link href='/gallery'>
+            <Image src='/images/gallery.png' alt='' width={1920} height={1034} priority />
+          </Link>
         </div>
       </section>
       <section className='container__form'>

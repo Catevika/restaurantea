@@ -4,7 +4,7 @@ export const details = [
     "id": 1,
     "icon": "/icons/location.svg",
     "alt": "Location icon",
-    "title": "Locate us",
+    "title": "Location",
     "paragraph": "Riverside 25, San Francisco, California"
   },
   {
@@ -651,7 +651,7 @@ export const galleryImages = [
     "alt": "Meatballs main course",
     "width": 260,
     "height": 260,
-    "slug": "meat-balls"
+    "slug": "meatballs"
   },
   {
     "id": 68,
@@ -666,9 +666,9 @@ export const galleryImages = [
   {
     "id": 69,
     "category": "Main course",
-    "name": "Tacos",
+    "name": "Gourmet Chicken Tacos",
     "src": "/images/tacos-popular.png",
-    "alt": "Tacos main course",
+    "alt": "Gourmet Chicken Tacos main course",
     "width": 260,
     "height": 260,
     "slug": "tacos"
@@ -692,5 +692,174 @@ export const galleryImages = [
     "width": 320,
     "height": 320,
     "slug": "brownie-raspberry"
+  }
+];
+
+export const recipes = [
+  {
+    "id": 72,
+    "category": "Starter",
+    "name": "Avocado toast",
+    "src": "/images/starter-avocado.png",
+    "alt": "Avocado toast starter",
+    "width": 320,
+    "height": 320,
+    "slug": "starter-avocado",
+    "ingredients": "1 avocado, 1 cooked beet, 2 toasts, 3 small yellow tomatoes, 1 lemon, basil, extra vergin olive oil, balsamic vinegar, Himalaya salt, black pepper, and Cayenne pepper",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla rem voluptatum? Optio quo repellendus cum odio. Explicabo, repellendus quos."
+  },
+  {
+    "id": 73,
+    "category": "Main course",
+    "name": "Meatballs",
+    "src": "/images/meat-balls-popular.png",
+    "alt": "Meatballs main course",
+    "width": 260,
+    "height": 260,
+    "slug": "meatballs",
+    "ingredients": "1 portion of mixed meat: 1/2 ground beef & 1/2 ground porck, 2 egg yolks, 3 red tomatoes, grated Italian Pecorino or Parmesan cheese, fresh breadcrumbs, a cup of milk, 1 grated fresh garlic, 1/2 cup of finely chopped parsley, extra vergin olive oil, Himalaya salt, black pepper, 1 portion of spaghetti cooked al dente",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus perspiciatis quis impedit aliquam illum dolores enim pariatur voluptatum blanditiis quod."
+  },
+  {
+    "id": 74,
+    "category": "Main course",
+    "name": "Cheese Burger",
+    "src": "/images/cheese-burger-popular.png",
+    "alt": "Cheese Burger main course",
+    "width": 260,
+    "height": 260,
+    "slug": "cheese-burger",
+    "ingredients": "1 burger bun, 180g minced ground beef, 1 red tomato, onions marmelade, 2 slices of mature cheddar, 2 iceberg salad leaves, barbecue or tomato sauce, mustard, hamburger dill chips",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam tempore nam accusamus, error dignissimos aliquid necessitatibus vero quae exercitationem natus."
+  },
+  {
+    "id": 75,
+    "category": "Main course",
+    "name": "Gourmet Chicken Tacos",
+    "src": "/images/tacos-popular.png",
+    "alt": "Gourmet Chicken Tacos main course",
+    "width": 260,
+    "height": 260,
+    "slug": "tacos",
+    "ingredients": "3 tortilla (6-inch) or traditional size hard taco shells, 3 chicken fillets, a crumble of queso fresco or cotija cheese, sliced avocados & radishes, shredded lettuce or cabbage, Jalapeños(optional), sour cream, chili powder, salt, pepper",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt perspiciatis quasi veritatis omnis perferendis accusamus vitae similique ex iste reiciendis."
+  },
+  {
+    "id": 76,
+    "category": "Dessert",
+    "name": "Lemon Pie",
+    "src": "/images/lemon-pie.png",
+    "alt": "Lemon Pie dessert",
+    "width": 234,
+    "height": 234,
+    "slug": "lemon-pie",
+    "ingredients": "Dough for single-crust pie, 1 cup sugar, 1/4 cup cornstarch, 3 tablespoons all-purpose flour, 1/4 teaspoon salt, 2 cups water, 3 large beaten egg yolks, 1 tablespoon butter, 1/4 cup lemon juice, 1 teaspoon grated lemon zests",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sed eaque ratione quam placeat vel, a dolor doloribus excepturi adipisci."
+  },
+  {
+    "id": 77,
+    "category": "Dessert",
+    "name": "Brownie",
+    "src": "/images/brownie-raspberry.png",
+    "alt": "Brownie Raspberry dessert",
+    "width": 320,
+    "height": 320,
+    "slug": "brownie-raspberry",
+    "ingredients": "2 eggs + water, flour, powdered sugar, chocolate chips, unsweetened cocoa powder, olive oil, vanilla extract",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reprehenderit voluptatibus earum praesentium molestiae fuga corrupti aliquam ad nostrum cum."
+  }
+];
+
+export const blogs = [
+  {
+    "id": 78,
+    "src": "/images/cocktails.png",
+    "alt": "Green and orange cocktails",
+    "width": 320,
+    "height": 320,
+    "slug": "cocktails",
+    "date": "July 19, 2024",
+    "title": "10 tips for making delicious cocktails",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  },
+  {
+    "id": 79,
+    "src": "/images/starter-avocado.png",
+    "alt": "Avocado toast starter",
+    "width": 320,
+    "height": 320,
+    "slug": "starter",
+    "date": "July 19, 2024",
+    "title": "10 tips for making appetizing starters",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  },
+  {
+    "id": 80,
+    "src": "/images/cheese-burger-popular.png",
+    "alt": "Cheese Burger main course",
+    "width": 260,
+    "height": 260,
+    "slug": "cheese-burger",
+    "date": "July 19, 2024",
+    "title": "10 tips for making gourmet burgers",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  },
+  {
+    "id": 81,
+    "src": "/images/brownie-raspberry.png",
+    "alt": "Brownie Raspberry dessert",
+    "width": 320,
+    "height": 320,
+    "slug": "brownie-raspberry",
+    "date": "July 19, 2024",
+    "title": "10 tips for making amazing desserts",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  }
+];
+
+export const posts = [
+  {
+    "id": 82,
+    "src": "/images/cocktails.png",
+    "alt": "Green and orange cocktails",
+    "width": 320,
+    "height": 320,
+    "slug": "cocktails",
+    "date": "July 19, 2024",
+    "title": "10 tips for making delicious cocktails",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  },
+  {
+    "id": 83,
+    "src": "/images/starter-avocado.png",
+    "alt": "Avocado toast starter",
+    "width": 320,
+    "height": 320,
+    "slug": "starter",
+    "date": "July 19, 2024",
+    "title": "10 tips for making appetizing starters",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  },
+  {
+    "id": 84,
+    "src": "/images/cheese-burger-popular.png",
+    "alt": "Cheese Burger main course",
+    "width": 260,
+    "height": 260,
+    "slug": "cheese-burger",
+    "date": "July 19, 2024",
+    "title": "10 tips for making gourmet burgers",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
+  },
+  {
+    "id": 85,
+    "src": "/images/brownie-raspberry.png",
+    "alt": "Brownie Raspberry dessert",
+    "width": 320,
+    "height": 320,
+    "slug": "brownie-raspberry",
+    "date": "July 19, 2024",
+    "title": "10 tips for making amazing desserts",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
   }
 ];

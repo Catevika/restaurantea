@@ -4,7 +4,7 @@ import ReservationForm from '@/components/Forms/ReservationForm';
 import { cormorantInfant, josefinSans } from '@/fonts';
 import Image from 'next/image';
 
-export default function Chef() {
+export default function ChefPage() {
 
   return (
     <main>

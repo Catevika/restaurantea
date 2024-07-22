@@ -32,6 +32,7 @@ html {
   -ms-overflow-style: none;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
 
 html::-webkit-scrollbar {
@@ -223,9 +224,19 @@ main:not(:last-child()) {
   min-height: 100vh;
 }
 
+ol {
+  margin-left: 4rem;
+}
+
+ol>li {
+  margin-bottom: 1rem;
+}
+
 p:not(p.container__links,
   p.container__social__icons,
-  .container__card__dishes p, .content__45deg__offer p) {
+  .container__card__dishes p,
+  .content__45deg__offer p,
+  .container__card__post__guide p) {
   margin: 0 0 1rem;
 }
 
@@ -766,7 +777,6 @@ blockquote {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  grid-gap: 1rem;
   gap: 1rem;
   margin: 1rem;
 }
@@ -797,6 +807,87 @@ blockquote {
 
 .content__gallery__image__bottom .button {
   margin-bottom: 0;
+}
+
+.container__recipes:not(:last-of-type) hr.hr__color__gold {
+  border: 7px double var(--color-gold);
+  margin: 0 auto 3rem;
+}
+
+.container__recipes:last-of-type hr {
+  display: none;
+}
+
+.container__recipes__details {
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.content__recipe {
+  margin-top: 2rem;
+}
+
+.container__blog__introduction p {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.container__blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.container__card__blog {
+  max-width: 500px;
+  border: 1px solid var(--color-gold);
+}
+
+.container__blog__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.container__blog__details .whiteButton {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+}
+
+.container__blog__details .whiteButton:hover,
+.container__blog__details .whiteButton:focus-visible {
+  margin: 0;
+}
+
+.container__card__post__guide {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  background-color: var(--color-light);
+}
+
+.container__card__post__guide p {
+  text-align: center;
+  margin: 0;
+}
+
+.container__card__post__single {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.container__contact {
+  margin: 2rem;
 }
 
 .img__popularcard {
@@ -884,6 +975,10 @@ blockquote {
   background-color: rgba(41, 46, 54, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease;
+}
+
+.recipe__overlay {
+  top: -220px;
 }
 
 .icon__gallery__link:hover .overlay {
@@ -1035,21 +1130,6 @@ blockquote {
   }
 }
 
-@media(max-width: 1205px) {
-  .container__offers {
-    flex-wrap: wrap;
-  }
-
-  .container__card__offer {
-    width: 100%;
-  }
-
-  .container__chef__single {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 @media(max-width: 1460px) {
   input {
     width: 100%;
@@ -1132,6 +1212,29 @@ blockquote {
 
   .container__chefs {
     flex-wrap: wrap;
+  }
+
+  .container__blog {
+    grid-template-columns: 1fr;
+  }
+
+  .container__card__blog {
+    border: none;
+  }
+}
+
+@media(max-width: 1205px) {
+  .container__offers {
+    flex-wrap: wrap;
+  }
+
+  .container__card__offer {
+    width: 100%;
+  }
+
+  .container__chef__single {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -1346,6 +1449,10 @@ blockquote {
   .container__footer .logo img {
     padding-left: 0;
   }
+
+  .container__recipes__details {
+    flex-direction: column;
+  }
 }
 
 @media(max-width: 840px) {
@@ -1428,6 +1535,10 @@ blockquote {
     margin: 0;
   }
 
+  ol {
+    margin-left: 2rem;
+  }
+
   q {
     min-width: 300px;
     height: 345px;
@@ -1465,6 +1576,7 @@ blockquote {
   .container__card__dishes {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0;
   }
 
   .container__card__testimonial {
@@ -1589,6 +1701,12 @@ blockquote {
   .content__gallery__image__bottom {
     background-position: left;
   }
+
+  .container__card__post__guide {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem 2rem;
+  }
 }
 
 @media(max-width: 460px) {
@@ -1625,5 +1743,11 @@ blockquote {
 
   .container__card__social__icons {
     padding: 1rem 0;
+  }
+
+  .container__card__post__guide {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.5rem 1rem;
   }
 }

@@ -13,19 +13,24 @@ export default function GalleryPage() {
             Gallery
           </h1>
         </div>
-        <div className='bg__white container__gallery'>
-          <div className='container__color__bg content__gallery'>
-            <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Our Recipes</h6>
+        <div className='container__color__bg'>
+          <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Stories</h6>
+          <h5 className={cormorantInfant.className}>Instagram Gallery</h5>
+          <div className='container__color__bg'>
             <ImageList />
           </div>
-          <div className='content__gallery__image__bottom'>
-            <div className='column col__h__start left__35'>
-              <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Reservation</h6>
-              <h4 className={cormorantInfant.className}>Your Best Evening Ever</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, libero!</p>
-              <Button link='/reservation' text='Book a table' />
-            </div>
+        </div>
+      </section>
+      <section>
+        <div className='content__gallery__image__bottom'>
+          <div className='column col__h__start left__35'>
+            <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Reservation</h6>
+            <h4 className={cormorantInfant.className}>Your Best Evening Ever</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, libero!</p>
+            <Button link='/reservation' text='Book a table' />
           </div>
+        </div>
+        <div className='container bg__white'>
           <div className='container__color__bg'>
             <div className='container'>
               <div className="column col__h__start left__35">
@@ -52,6 +57,6 @@ export default function GalleryPage() {
           </div>
         </div>
       </section>
-    </main>
+    </main >
   );
 }
