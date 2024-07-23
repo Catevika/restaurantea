@@ -6,7 +6,7 @@ export default function OrderPage() {
     <main>
       <section>
         <h1 className={`${cormorantInfant.className} border__tb__gold-h1`}>
-          Order for Delivery
+          Order
         </h1>
         <div className='container__color__bg'>
           <OrderList />

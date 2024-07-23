@@ -261,7 +261,7 @@ export const services = [
   {
     "id": 28,
     "src": "/icons/service-3.svg",
-    "text": "Home Delivery within 30min. Free"
+    "text": "Free Home Delivery within 30min."
   }
 ];
 

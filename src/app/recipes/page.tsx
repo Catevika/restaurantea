@@ -16,7 +16,8 @@ export default function RecipesPage() {
         <div className='container__gallery'>
           <div className='container__color__bg content__gallery'>
             <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Our delicious Recipes</h6>
-            <ImageListOverlay />
+            <h5 className={cormorantInfant.className}>Choose your favorite:</h5>
+            <div className='container-sub__color__bg'><ImageListOverlay /></div>
           </div>
         </div>
         <div className='bg__white'>
