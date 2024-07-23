@@ -863,3 +863,22 @@ export const posts = [
     "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat possimus commodi ea, consequatur voluptatem iure, odio molestiae necessitatibus ullam debitis perferendis modi odit! Optio nulla adipisci eligendi unde aperiam."
   }
 ];
+
+export const paymentMethods = [
+  {
+    "id": 86,
+    "title": "VISA"
+  },
+  {
+    "id": 87,
+    "title": "Mastercard"
+  },
+  {
+    "id": 88,
+    "title": "American Express"
+  },
+  {
+    "id": 89,
+    "title": "PayPal"
+  }
+];

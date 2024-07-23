@@ -36,7 +36,7 @@ export default function MenuPage() {
                 </div>
               </div>
               <div className='container col__h__start'>
-                <WhiteButton link='/order' text='Order for Delivery' />
+                <WhiteButton link='/order/#beverage' text='Order for Delivery' />
               </div>
             </div>
             <div className='content__menu__section__img'>
@@ -55,7 +55,7 @@ export default function MenuPage() {
                 </div>
               </div>
               <div className='container col__h__start'>
-                <WhiteButton link='/order' text='Order for Delivery' />
+                <WhiteButton link='/order/#starter' text='Order for Delivery' />
               </div>
             </div>
             <div className='content__menu__section__img'>
@@ -74,7 +74,7 @@ export default function MenuPage() {
                 </div>
               </div>
               <div className='container col__h__start'>
-                <WhiteButton link='/order' text='Order for Delivery' />
+                <WhiteButton link='/order/#maincourse' text='Order for Delivery' />
               </div>
             </div>
             <div className='content__menu__section__img'>
@@ -93,7 +93,7 @@ export default function MenuPage() {
                 </div>
               </div>
               <div className='container col__h__start'>
-                <WhiteButton link='/order' text='Order for Delivery' />
+                <WhiteButton link='/order/#dessert' text='Order for Delivery' />
               </div>
             </div>
           </div>

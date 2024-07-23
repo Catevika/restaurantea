@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section>
         <div className='container'>
           <h1 className={`${cormorantInfant.className} border__tb__gold-h1`}>
-            About Us
+            About
           </h1>
         </div>
         <div className='bg__white'>

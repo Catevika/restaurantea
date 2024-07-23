@@ -215,6 +215,11 @@ input {
   padding-left: 0.7em;
 }
 
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 1rem;
+}
+
 label {
   margin-right: 1rem;
 }
@@ -625,6 +630,7 @@ blockquote {
 }
 
 .container__menu__section {
+  color: var(--color-black);
   margin-top: -10rem;
   padding: 4rem;
   background-color: var(--color-white);
@@ -888,6 +894,14 @@ blockquote {
 
 .container__contact {
   margin: 2rem;
+}
+
+.container__card__order {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .img__popularcard {
