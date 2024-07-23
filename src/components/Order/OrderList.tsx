@@ -11,7 +11,7 @@ export default function OrderList() {
     <div className='bg__black'>
       <div className='column'>
         <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Our Free Home Delivery Service</h6>
-        <h5 className={cormorantInfant.className}>Your favourite meals within 30min.</h5>
+        <h5 className={cormorantInfant.className}>Your favorite meals within 30min.</h5>
       </div>
       <div className='container__color__bg'>
         <div className='content__menu__section__img'>
