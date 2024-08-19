@@ -5,7 +5,7 @@ export default function IconCardProduct({ icon, title, paragraph }: { icon: JSX.
     <div className='column container__card__product'>
       {icon}
       <h5 className={cormorantInfant.className}>{title}</h5>
-      <p>{paragraph}</p>
+      <p className='container__card__product__text'>{paragraph}</p>
     </div>
   );
 }

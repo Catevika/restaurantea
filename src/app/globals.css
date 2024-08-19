@@ -224,7 +224,7 @@ label {
   margin-right: 1rem;
 }
 
-main:not(:last-child()) {
+main:not(:last-child) {
   width: 100%;
   min-height: 100vh;
 }
@@ -416,12 +416,11 @@ blockquote {
   margin: 2rem 0 0;
 }
 
-.container__cards:not(.container__stars) {
+.container__cards:not(.container__stars, .container__chefs) {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  width: 100%;
 }
 
 .container__cards h5,
@@ -575,7 +574,7 @@ blockquote {
   margin: 2rem 0 1rem;
 }
 
-.container__card__product p {
+.container__cards .container__card__product p {
   text-align: center;
   margin-top: 1rem;
 }
@@ -592,7 +591,7 @@ blockquote {
 .container__chefs {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 1rem;
 }
 
@@ -605,6 +604,7 @@ blockquote {
   width: 260px;
   height: auto;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .container__card__chef {
@@ -657,7 +657,7 @@ blockquote {
   width: 100%;
 }
 
-.column:not(:last-child()) {
+.column:not(:last-child) {
   margin-bottom: 2rem;
 }
 
@@ -699,6 +699,10 @@ blockquote {
   justify-content: center;
   width: 80vw;
   min-height: 650px;
+}
+
+.container__card__testimonial__large q {
+  text-align: center;
 }
 
 .container__card__testimonial__large div {
@@ -1570,13 +1574,14 @@ blockquote {
 
   .container__color__bg h4,
   .container__color__bg h6 {
-    align-self: center;
+    text-align: center;
   }
 
   .container__cards {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1rem;
+    width: 100%;
   }
 
   .container__cards:not(.container__chefs, .container__details) p {
