@@ -1,6 +1,7 @@
 import { cormorantInfant } from '@/fonts';
+import type { ReactNode } from 'react';
 
-export default function IconCardProduct({ icon, title, paragraph }: { icon: JSX.Element, title: string, paragraph: string; }) {
+export default function IconCardProduct({ icon, title, paragraph }: { icon: ReactNode, title: string, paragraph: string; }) {
   return (
     <div className='column container__card__product'>
       {icon}

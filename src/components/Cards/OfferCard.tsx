@@ -1,7 +1,8 @@
 import { cormorantInfant, josefinSans } from '@/fonts';
 import Image from 'next/image';
+import type { ReactNode } from 'react';
 
-export default function OfferCard({ bckg, textColor, iconXl, textClass, price, percent, product, paragraph, imgSrc, imgWidth, imgHeight }: { bckg: string, textColor: string, iconXl: JSX.Element, textClass: string, price: number, percent: number, product: string, paragraph: string, imgSrc: string, imgWidth: number, imgHeight: number; }) {
+export default function OfferCard({ bckg, textColor, iconXl, textClass, price, percent, product, paragraph, imgSrc, imgWidth, imgHeight }: { bckg: string, textColor: string, iconXl: ReactNode, textClass: string, price: number, percent: number, product: string, paragraph: string, imgSrc: string, imgWidth: number, imgHeight: number; }) {
   return (
     <div className={`container__card__offer ${bckg}`}>
       <div className='content__badge__offer'>

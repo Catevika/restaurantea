@@ -530,51 +530,51 @@ export const dishesMenu = [
 ];
 
 export const dessertsMenu = [
-  {
-    "id": 57,
-    "iconClass": "icon__xl",
-    "icon": '/images/apple-pie.png',
-    "alt": "",
-    "title": "Apple Pie",
-    "paragraph": "Lorem ipsum dolor sit amet.",
-    "price": 10
-  },
-  {
-    "id": 58,
-    "iconClass": "icon__xl",
-    "icon": '/images/lemon-pie.png',
-    "alt": "",
-    "title": "Lemon Pie",
-    "paragraph": "Lorem ipsum dolor sit amet.",
-    "price": 15
-  },
-  {
-    "id": 59,
-    "iconClass": "icon__xl",
-    "icon": '/images/chocolate-raspberry-pie.png',
-    "alt": "",
-    "title": "Chocolate Raspberry Pie",
-    "paragraph": "Lorem ipsum dolor sit amet.",
-    "price": 15
-  },
-  {
-    "id": 60,
-    "iconClass": "icon__xl",
-    "icon": '/images/brownie-raspberry.png',
-    "alt": "",
-    "title": "Chocolate Raspberry",
-    "paragraph": "Lorem ipsum dolor sit amet.",
-    "price": 10
-  },
-  {
-    "id": 61,
-    "iconClass": "icon__xl",
-    "icon": '/images/ice-cream.png',
-    "alt": "",
-    "title": "Ice Cream",
-    "paragraph": "Lorem ipsum dolor sit amet.",
-    "price": 10
-  }
+	{
+		id: 57,
+		iconClass: "icon__xl",
+		icon: "/images/apple-pie.png",
+		alt: "",
+		title: "Apple Pie",
+		paragraph: "Lorem ipsum dolor sit amet.",
+		price: 10,
+	},
+	{
+		id: 58,
+		iconClass: "icon__xl",
+		icon: "/images/lemon-pie.png",
+		alt: "",
+		title: "Lemon Pie",
+		paragraph: "Lorem ipsum dolor sit amet.",
+		price: 15,
+	},
+	{
+		id: 59,
+		iconClass: "icon__xl",
+		icon: "/images/Chocolate-raspberry-pie.png",
+		alt: "",
+		title: "Chocolate Raspberry Pie",
+		paragraph: "Lorem ipsum dolor sit amet.",
+		price: 15,
+	},
+	{
+		id: 60,
+		iconClass: "icon__xl",
+		icon: "/images/brownie-raspberry.png",
+		alt: "",
+		title: "Chocolate Raspberry Brownie",
+		paragraph: "Lorem ipsum dolor sit amet.",
+		price: 10,
+	},
+	{
+		id: 61,
+		iconClass: "icon__xl",
+		icon: "/images/ice-cream.png",
+		alt: "",
+		title: "Ice Cream",
+		paragraph: "Lorem ipsum dolor sit amet.",
+		price: 10,
+	},
 ];
 
 export const chefDetails = [
