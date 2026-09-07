@@ -150,7 +150,7 @@ Photo by [Hisu lee](https://unsplash.com/@lee_hisu?utm_content=creditCopyText&ut
 Brownie raspberry:
 Photo by [Anto Meneghini](https://unsplash.com/@antomeneghini?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/raspberries-and-chocolate-cake-in-plate-on-table-iPkY0inAV4I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
 
-## Signle Chef page
+## Single Chef page
 
 ### Video
 

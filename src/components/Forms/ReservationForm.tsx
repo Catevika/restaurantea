@@ -3,39 +3,75 @@ import { cormorantInfant, josefinSans } from '@/fonts';
 
 export default function ReservationForm() {
   return (
-    <form className='column form'>
-      <h6 className={`${josefinSans.className} border__tb__gold text__uppercase`}>Reservation</h6>
-      <h4 className={cormorantInfant.className}>Book your table now</h4>
-      <div className='container content__form'>
-        <p className='column col__h__start'>
-          <label htmlFor='name'>Name</label>
-          <input type='text' id='name' name='name' title='name' placeholder='Name' autoComplete='name' />
-        </p>
+		<form className="column form">
+			<h6
+				className={`${josefinSans.className} border__tb__gold text__uppercase`}
+			>
+				Reservation
+			</h6>
+			<h4 className={cormorantInfant.className}>Book your table now</h4>
+			<div className="container content__form form__row--two">
+				<p className="column col__h__start">
+					<label htmlFor="name">Name</label>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						title="name"
+						placeholder="Name"
+						autoComplete="name"
+					/>
+				</p>
 
-        <p className='column col__h__start'>
-          <label htmlFor='email-reservation'>Email</label>
-          <input type='email' id='email-reservation' name='email' title='email' placeholder='Email' autoComplete='email' />
-        </p>
-      </div>
+				<p className="column col__h__start">
+					<label htmlFor="email-reservation">Email</label>
+					<input
+						type="email"
+						id="email-reservation"
+						name="email"
+						title="email"
+						placeholder="Email"
+						autoComplete="email"
+					/>
+				</p>
+			</div>
 
-      <div className='container content__form'>
-        <p className='column col__h__start'>
-          <label htmlFor='date'>Date</label>
-          <input type='date' id='date' name='date' title='date' placeholder='Date' />
-        </p>
+			<div className="container content__form form__row--three">
+				<p className="column col__h__start">
+					<label htmlFor="date">Date</label>
+					<input
+						type="date"
+						id="date"
+						name="date"
+						title="date"
+						placeholder="Date"
+					/>
+				</p>
 
-        <p className='column col__h__start'>
-          <label htmlFor='number'>Guests</label>
-          <input type='number' id='number' name='number' title='number' placeholder='1' />
-        </p>
+				<p className="column col__h__start">
+					<label htmlFor="number">Guests</label>
+					<input
+						type="number"
+						id="number"
+						name="number"
+						title="number"
+						placeholder="1"
+					/>
+				</p>
 
-        <p className='column col__h__start'>
-          <label htmlFor='hour'>Time</label>
-          <input type='text' id='hour' name='hour' title='hour' placeholder='Arrival time' />
-        </p>
-      </div>
+				<p className="column col__h__start">
+					<label htmlFor="hour">Time</label>
+					<input
+						type="text"
+						id="hour"
+						name="hour"
+						title="hour"
+						placeholder="Arrival time"
+					/>
+				</p>
+			</div>
 
-      <ReverseButton type='submit' text='Book a table' />
-    </form>
-  );
+			<ReverseButton type="submit" text="Book a table" />
+		</form>
+	);
 }
